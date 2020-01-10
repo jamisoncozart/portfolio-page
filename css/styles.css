@@ -1,3 +1,23 @@
-h1 {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+img {
+  height: 400px;
+  width: auto;
+  margin-top: 20px;
+}
+
+.heading {
+  background-color: #cfcfcf;
+  padding-bottom: 20px;
 }
