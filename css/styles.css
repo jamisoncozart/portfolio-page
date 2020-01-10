@@ -11,13 +11,38 @@ body {
   text-align: center;
 }
 
+/* ======================= */
+/* HEADER SECTION */
+
+.heading-section {
+  background-color: #cfcfcf;
+  padding-bottom: 20px;
+}
+
 img {
   height: 400px;
   width: auto;
   margin-top: 20px;
 }
 
-.heading {
-  background-color: #cfcfcf;
-  padding-bottom: 20px;
+/* ======================= */
+/* PANEL SECTION */
+
+.panel {
+  text-align: left;
+  color: #000;
 }
+
+.panel:hover {
+  opacity: 0.8;
+}
+
+.panel ul {
+  margin-left: 15px;
+}
+
+a:hover, a:active{
+  color: #000;
+  text-decoration: none;
+}
+/* ======================= */
