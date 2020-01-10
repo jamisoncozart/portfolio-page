@@ -35,7 +35,7 @@ img {
 
 hr {
   border: 0; 
-  height: 2px; 
+  height: 3px; 
   background-color: #a0a0a0;
 }
 
@@ -44,7 +44,7 @@ hr {
   color: #000;
 }
 
-.panel:hover {
+.link-panel:hover {
   opacity: 0.8;
 }
 
@@ -57,3 +57,13 @@ a:hover, a:active{
   text-decoration: none;
 }
 /* ======================= */
+/* ABOUT ME SECTION */
+
+.about-section {
+  background-color: #cfcfcf;
+  padding: 20px;
+}
+
+.sub-hr {
+  height: 1px;
+}
