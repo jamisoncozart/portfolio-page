@@ -11,6 +11,14 @@ body {
   text-align: center;
 }
 
+h2 {
+  margin: 0;
+}
+
+.large-ul {
+  column-count: 2;
+}
+
 /* ======================= */
 /* HEADER SECTION */
 
@@ -55,6 +63,10 @@ hr {
   opacity: 0.8;
 }
 
+.link-panel {
+  height: 300px;
+}
+
 .panel ul {
   margin-left: 15px;
 }
@@ -69,6 +81,8 @@ a:hover, a:active{
 .about-section {
   background-color: #cfcfcf;
   padding: 20px;
+  padding-top: 0;
+  border-radius: 0 0 5px 5px;
 }
 
 .sub-hr {
