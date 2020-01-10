@@ -78,16 +78,23 @@ h1, h2, h3, h4 {
 
 hr {
   border: 0; 
-  height: 3px; 
-  background-color: #a0a0a0;
+  height: 3px;
 }
 
 .link-panel:hover {
-  opacity: 0.8;
+  background-color: #eee;
+  -webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.32);
+  -moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.32);
+  box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.32);
+  transition: 0.1s;
+  top: -10px;
 }
 
 .link-panel {
   height: 300px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.1s
 }
 
 .panel ul, .panel ol {
@@ -139,6 +146,10 @@ a:hover, a:active{
 
 .work-section .panel {
   height: 495px;
+}
+
+.education-section .panel {
+  height: 245px;
 }
 
 /* ====================== */
