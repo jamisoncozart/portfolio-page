@@ -14,6 +14,7 @@ body {
 
 h2 {
   margin: 0;
+  font-size: 40px;
 }
 
 .large-ul {
@@ -43,8 +44,17 @@ span {
   font-style: italic;
 }
 
+.section-title {
+  font-size: 30px;
+}
+
 /* ======================= */
 /* HEADER SECTION */
+
+h1 {
+  font-size: 50px;
+}
+
 h1, h2, h3, h4 {
   font-weight: bold;
 }
@@ -74,6 +84,10 @@ h1, h2, h3, h4 {
 .projects-section {
   background-color: #337ab7;
   padding: 20px;
+}
+
+.projects-well {
+  border-radius: 15px;
 }
 
 hr {
@@ -119,6 +133,10 @@ a:hover, a:active{
   color: #fff;
 }
 
+.work-section {
+  border-radius: 15px;
+}
+
 .about-section hr {
   background-color: #fff;
 }
@@ -144,12 +162,20 @@ a:hover, a:active{
   margin: 0 0 10px 10px;
 }
 
+.education-section {
+  border-radius: 15px;
+}
+
 .work-section .panel {
   height: 495px;
 }
 
 .education-section .panel {
   height: 245px;
+}
+
+.hobbies-section {
+  border-radius: 15px;
 }
 
 /* ====================== */
