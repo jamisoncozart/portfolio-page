@@ -112,6 +112,10 @@ a:hover, a:active{
   margin: 0 0 10px 10px;
 }
 
+.work-section .panel {
+  height: 470px;
+}
+
 /* ====================== */
 /* FOOTER */
 
