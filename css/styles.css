@@ -226,6 +226,15 @@ footer p {
     margin: 0px;
     border-radius: 0;
   }
+  .panel-body img {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .panel-body img {
+    height: 75px;
+  }
 }
 
 /* ======================= */
