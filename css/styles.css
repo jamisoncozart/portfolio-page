@@ -195,3 +195,12 @@ footer {
 footer p {
   margin: 0;
 }
+
+@media screen and (max-width: 590px) {
+  .work-section .panel {
+    height: 715px;
+  }
+  .education-section .panel {
+    height: 350px;
+  }
+}
