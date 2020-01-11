@@ -56,7 +56,12 @@ span {
 }
 
 /* ======================= */
+
 /* HEADER SECTION */
+
+.heading-section h1, .heading-section h4 {
+  text-shadow: 4px 4px 9px rgba(0, 0, 0, 0.5);
+}
 
 h1 {
   font-size: 50px;
@@ -80,12 +85,13 @@ h1, h2, h3, h4 {
   margin: 20px 0;
   border-radius: 50%;
   border: 10px solid #fff;
-  -webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.32);
-  -moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.32);
-  box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.32);
+  -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.32);
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.32);
 }
 
 /* ======================= */
+
 /* PROJECTS SECTION */
 
 .projects-section {
@@ -98,15 +104,15 @@ h1, h2, h3, h4 {
 }
 
 hr {
-  border: 0; 
+  border: 0;
   height: 3px;
 }
 
 .link-panel:hover {
   background-color: #eee;
-  -webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.32);
-  -moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.32);
-  box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.32);
+  -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.32);
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.32);
   transition: 0.1s;
   top: -10px;
 }
@@ -122,11 +128,13 @@ hr {
   margin-left: 15px;
 }
 
-a:hover, a:active{
+a:hover, a:active {
   color: #000;
   text-decoration: none;
 }
+
 /* ======================= */
+
 /* ABOUT ME SECTION */
 
 .about-section {
@@ -179,6 +187,7 @@ a:hover, a:active{
 }
 
 /* ====================== */
+
 /* FOOTER */
 
 footer {
