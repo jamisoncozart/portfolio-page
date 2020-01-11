@@ -10,6 +10,7 @@ body {
 
 .container {
   text-align: center;
+  padding: 0;
 }
 
 h2 {
@@ -187,7 +188,6 @@ a:hover, a:active {
 }
 
 /* ====================== */
-
 /* FOOTER */
 
 footer {
@@ -205,6 +205,10 @@ footer p {
   margin: 0;
 }
 
+
+/* ======================== */
+/* MEDIA QUERIES */
+
 @media screen and (max-width: 1200px) {
   .work-section .panel, .hobbies-section .panel, .education-section .panel {
     height: auto;
@@ -216,3 +220,12 @@ footer p {
     height: auto;
   }
 }
+
+@media screen and (max-width: 750px) {
+  .heading-section {
+    margin: 0px;
+    border-radius: 0;
+  }
+}
+
+/* ======================= */
