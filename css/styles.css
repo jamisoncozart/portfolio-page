@@ -205,11 +205,14 @@ footer p {
   margin: 0;
 }
 
-@media screen and (max-width: 590px) {
-  .work-section .panel {
-    height: 715px;
+@media screen and (max-width: 1200px) {
+  .work-section .panel, .hobbies-section .panel, .education-section .panel {
+    height: auto;
   }
-  .education-section .panel {
-    height: 350px;
+}
+
+@media screen and (max-width: 991px) {
+  .projects-section .panel {
+    height: auto;
   }
 }
