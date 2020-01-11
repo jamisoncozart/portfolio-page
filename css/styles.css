@@ -140,8 +140,7 @@ a:hover, a:active {
 
 .about-section {
   background-color: #337ab7;
-  padding: 20px;
-  padding-top: 0;
+  padding: 0 20px 30px 20px;
   border-radius: 0 0 15px 15px;
 }
 
@@ -185,6 +184,28 @@ a:hover, a:active {
 
 .hobbies-section {
   border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+/* ======================== */
+/* CONTACT SECTION */
+
+.contact-icon {
+  height: 100px;
+  border-radius: 50%;
+  top: 0;
+  position: relative;
+  transition: top ease 0.1s;
+  background-color: #fff;
+}
+
+.contact-icon:hover {
+  opacity: 0.9;
+  -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.32);
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.32);
+  transition: 0.1s;
+  top: -5px;
 }
 
 /* ====================== */
@@ -204,7 +225,6 @@ footer {
 footer p {
   margin: 0;
 }
-
 
 /* ======================== */
 /* MEDIA QUERIES */
