@@ -13,9 +13,11 @@ $(document).ready(function() {
     //for each of the top 6 repos, change inner HTML to reflect Github data for title and descriptions.
     var titleIdList = ["repo1Title", "repo2Title", "repo3Title", "repo4Title", "repo5Title", "repo6Title"];
     var descriptionIdList = ["repo1Description", "repo2Description", "repo3Description", "repo4Description", "repo5Description", "repo6Description"];
+    var linkIdList = ["repo1link", "repo2link", "repo3link", "repo4link", "repo5link", "repo6link"];
     for(let i = 0; i < 6; i++) {
       document.getElementById(titleIdList[i]).innerHTML = repos[i].name;
       document.getElementById(descriptionIdList[i]).innerHTML = repos[i].description;
+      document.getElementById(linkIdList[i]).href = repos[i].html_url;
     }
 
     //For each repo, make GET request to repos[0].languages_url to retrieve all languages used.
