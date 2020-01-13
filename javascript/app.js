@@ -14,16 +14,17 @@ $(document).ready(function() {
     
     //For each repo, make GET request to repos[0].languages_url to retrieve all languages used.
     //Generate new <li></li> for each language in the response "languages" object
-    $.get(repos[0].languages_url, function(response, status) {
-      var langObj = response;
-      var languageNames = Object.keys(langObj);
-      var innerHTML = "";
-      languageNames.forEach(function(language) {
-        innerHTML += `<li>${language}</li>`
+    for(let i = 0; i < 6; i++) {
+      $.get(repos[i].languages_url, function(response, status) {
+        var langObj = response;
+        var languageNames = Object.keys(langObj);
+        var innerHTML = "";
+        var ulIdList = ["repo1Languages", "repo2Languages", "repo3Languages", "repo4Languages", "repo5Languages", "repo6Languages"]
+        languageNames.forEach(function(language) {
+          innerHTML += `<li>${language}</li>`
+        })
+        document.getElementById(ulIdList[i]).innerHTML = innerHTML;
       })
-      document.getElementById("repo1Languages").innerHTML = innerHTML;
-    })
-    
-    //document.getElementById("repo1Languages").innerHTML = <li>languages[i]</li>; NEED TO RETRIEVE KEY, because value is number of characters;
+    }
   })
 })
