@@ -280,11 +280,17 @@ footer p {
   .panel-body img {
     height: 100px;
   }
+  .star-div img {
+    height: 20px;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .panel-body img {
     height: 75px;
+  }
+  .star-div img {
+    height: 20px;
   }
 }
 
