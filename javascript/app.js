@@ -7,16 +7,15 @@ $(document).ready(function() {
     sortedRepos = repos.sort((a,b) => parseFloat(b.stargazers_count) - parseFloat(a.stargazers_count));
     
     //for each of the top 6 repos, change inner HTML to reflect Github data for title and descriptions.
-
     var idList = ["Title", "Description", "link", "Stars"];
     var objectKeyList = ["name", "description", "html_url", "stargazers_count"];
     idList.forEach(function(id, index) {
       for(let i = 1; i <= 6; i++) {
         var currentID = "repo" + i + id;
         if(id === "link") {
-          document.getElementById(currentID).href = sortedRepos[i][objectKeyList[index]];
+          document.getElementById(currentID).href = sortedRepos[i-1][objectKeyList[index]];
         } else {
-          document.getElementById(currentID).innerHTML = sortedRepos[i][objectKeyList[index]];
+          document.getElementById(currentID).innerHTML = sortedRepos[i-1][objectKeyList[index]];
         }
       }
     })
