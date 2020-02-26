@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const Url = "https://api.github.com/users/jamisoncozart/repos?per_page=100";
+  const Url = "https://api.github.com/users/jamisoncozart/repos?per_page=200";
   $.get(Url, function(response) {
     var repos = response;
 
