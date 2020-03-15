@@ -8,7 +8,7 @@
 
 _My personal portfolio page to show off all my work and previous experience. Created using Bootstrap containers, panels, and wells with custom CSS styling to make it unique._
 
-_The page can be viewed online at http://jamisoncozart.com/
+The page can be viewed online at http://jamisoncozart.com/
 
 ## Setup/Installation Requirements
 
