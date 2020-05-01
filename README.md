@@ -24,6 +24,7 @@ The page can be viewed online at http://jamisoncozart.com/
 
 ## Technologies Used
 
+* JavaScript
 * HTML
 * CSS
 * Bootstrap
